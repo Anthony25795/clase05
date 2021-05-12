@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2017/01/ano-nuevo-en-nueva-zelanda-1080x675.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    /*Esto es para arreglar/acomodar imagen de fondo*/
+}
+
+.contenedor{
+    min-height: 100vh; /*Tamaño mínimo en que se puede "achicar" la pantalla*/
+    display: flex; /*convierte los elementos en bloque en elementos en línea*/
+    align-items: center;
+    justify-content: center;
+}
+
+.contatime{
+    display: flex;
+    justify-content: space-around; /* Separa los div que están dentro del div que estamos dando estilo*/
+    text-align: center;
+}
+
+h1{
+    padding: 30px;
+    font-size: 70px;
+}
+
+h2{
+font-size: 30px;
+}
+
+.dias,.horas,.minutos,.segundos{
+    font-size: 70px;
+}
