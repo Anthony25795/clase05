@@ -5,13 +5,19 @@
 }
 
 body{
-    background-image: url('https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2017/01/ano-nuevo-en-nueva-zelanda-1080x675.jpg');
+    background: linear-gradient(to top,#feeedd, #2a9d8f, #264653);
+    /*background-image: url('https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2017/01/ano-nuevo-en-nueva-zelanda-1080x675.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: white;*/
     /*Esto es para arreglar/acomodar imagen de fondo*/
+}
+
+.gradientes2{
+    height: 200px;
+    width: 200px;
 }
 
 .contenedor{

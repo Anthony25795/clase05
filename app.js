@@ -18,5 +18,11 @@ const contador = () =>{
     document.querySelector('#horas').innerText = Math.floor(diferencia % dias / horas);
     document.querySelector('#minutos').innerText = Math.floor(diferencia % horas / minutos); //% --> esto es para sacar el residuo de la división 
     document.querySelector('#segundos').innerText = Math.floor(diferencia % minutos / segundos);
+
+    esClientePremium =true;
+    if(diferencia >= 0){
+        esClientePremium = false;
+    }
+
 }
 setInterval(contador, 1000); //refresca la función cada segundo
